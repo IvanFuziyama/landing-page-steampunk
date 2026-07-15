@@ -1,0 +1,10 @@
+:root{
+    /* navbar */
+    --fundo-navbar: #111111;
+    --cor-fonte-navbar: #F9F9F9;
+    --cor-button-iniciar-sessao-navbar: #282828;
+
+    /* Pensar nos nomes class em cada parte do site */
+    
+    --fundo-footer: #111111;
+}
