@@ -1,0 +1,11 @@
+@import '../../global/global.css';
+@import './partials/nav.css';
+@import './partials/hero.css';
+@import './partials/sobre.css';
+@import './partials/produtos.css';
+@import './partials/servicos.css';
+@import './partials/galeria.css';
+@import './partials/avatares.css';
+@import './partials/saiba-mais.css';
+@import './partials/explorar.css';
+@import './partials/footer.css';

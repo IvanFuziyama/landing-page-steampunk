@@ -1,0 +1,5 @@
+.section-hero{
+    background: brown;
+    min-height: 500px;
+    font-family: var(--font-family-titulo-subtitulo);
+}
