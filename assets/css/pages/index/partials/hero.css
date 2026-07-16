@@ -1,5 +1,20 @@
-.section-hero{
-    background: brown;
-    min-height: 500px;
+.section-hero h1{
     font-family: var(--font-family-titulo-subtitulo);
+    font-size: var(--font-size-titulo);
+    font-weight: var(--font-weight-titulo-subtitulo);
+    color: var(--font-color-body);
+    margin-bottom: 200px;
+}
+.section-hero{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url(../../../../img/tecnologia.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.section-hero .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 760px;
 }

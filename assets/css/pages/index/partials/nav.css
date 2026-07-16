@@ -12,10 +12,6 @@ a{
     /* position: fixed; */
     width: 100%;
 }
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-}
 .nav .container{
     flex-direction: row;
     display: flex;
@@ -35,6 +31,9 @@ a{
     justify-content: flex-end;
     flex: 1;
     align-items: center;
+}
+.nav-icon{
+    margin-right: 20px;
 }
 .button-iniciar-sessao{
     font-family: var(--font-family-texto);
