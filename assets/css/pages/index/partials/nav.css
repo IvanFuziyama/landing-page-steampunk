@@ -1,0 +1,25 @@
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.nav{
+    background-color: var(--fundo-navbar);
+    /* position: fixed; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 100%;
+}
+.nav-actions{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    width: 100%;
+}
