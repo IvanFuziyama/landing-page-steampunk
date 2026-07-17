@@ -9,3 +9,7 @@
 @import './partials/saiba-mais.css';
 @import './partials/explorar.css';
 @import './partials/footer.css';
+
+body{
+    background-color: var(--body-fundo);
+}

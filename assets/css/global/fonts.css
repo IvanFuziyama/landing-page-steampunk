@@ -17,4 +17,6 @@
     }
     body p{
         color: var(--font-color-body);
+        font-family: var(--font-family-texto);
+        font-size: var(--font-size-texto);
     }

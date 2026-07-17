@@ -4,12 +4,14 @@
     --font-family-texto: 'Inter', Arial, sans-serif;
     --font-size-titulo: 120px;
     --font-size-sub-titulo: 64px;
-    --font-size-texto: 24px;
+    --font-size-texto: 20px;
     --font-avatares-nome-select: 48px;
     --font-button: 36px;
     --font-color-nav: #F9F9F9;
     --font-color-body: #F5F5F5; 
 
+    /* body */
+    --body-fundo: #0A0A0A;
 
     /* navbar */
     --font-weight-padrao-navbar: 500;
