@@ -1,5 +1,5 @@
 .section-produtos{
-
+    background-color: var(--fundo-produtos);
 }
 .section-produtos .container{
     display: flex;
@@ -12,6 +12,7 @@
     flex-direction: row;
     column-gap: 95px;
     margin-top: 50px;
+    overflow: hidden;
 }
 .section-produtos-img{
     width: 350px;
