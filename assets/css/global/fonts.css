@@ -3,3 +3,18 @@
     Secular One
     Inter 
     */
+    h1{
+    font-family: var(--font-family-titulo-subtitulo);
+    font-size: var(--font-size-titulo);
+    font-weight: var(--font-weight-titulo-subtitulo);
+    color: var(--font-color-body);
+    }
+    h2{
+    font-family: var(--font-family-titulo-subtitulo);
+    font-size: var(--font-size-sub-titulo);
+    font-weight: var(--font-weight-titulo-subtitulo);
+    color: var(--font-color-body);
+    }
+    body p{
+        color: var(--font-color-body);
+    }

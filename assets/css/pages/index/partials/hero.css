@@ -1,8 +1,4 @@
 .section-hero h1{
-    font-family: var(--font-family-titulo-subtitulo);
-    font-size: var(--font-size-titulo);
-    font-weight: var(--font-weight-titulo-subtitulo);
-    color: var(--font-color-body);
     margin-bottom: 200px;
 }
 .section-hero{

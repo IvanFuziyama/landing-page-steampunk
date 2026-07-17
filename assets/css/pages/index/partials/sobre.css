@@ -1,3 +1,25 @@
 .section-sobre{
     background: var(--fundo-sobre-gradient);
 }
+.section-sobre .container{
+    display: flex;
+    flex-direction: row;
+    min-height: 500px;
+}
+.section-sobre-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section-sobre-content-texto{
+    max-width: 80%;
+    text-align: justify;
+}
+.section-sobre-image{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.section-sobre-img{
+    max-width: 100%;
+}
