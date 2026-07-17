@@ -7,15 +7,20 @@
     flex-direction: column;
     min-height: 720px;
 }
+.section-produtos-janela{
+    overflow: hidden;
+}
 .section-produtos-conjunto-imagens{
     display: flex;
     flex-direction: row;
     column-gap: 95px;
     margin-top: 50px;
-    overflow: hidden;
+    transform: translateX(0);
+    transition: 0.3s ease;
 }
 .section-produtos-img{
     width: 350px;
     height: 250px;
     object-fit: cover;
+    flex-shrink: 0;
 }
