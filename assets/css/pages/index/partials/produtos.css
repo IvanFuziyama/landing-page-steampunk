@@ -13,10 +13,10 @@
 .section-produtos-conjunto-imagens{
     display: flex;
     flex-direction: row;
-    column-gap: 95px;
+    column-gap: 73px;
     margin-top: 50px;
     transform: translateX(0);
-    transition: 0.3s ease;
+    transition: 0.7s ease;
 }
 .section-produtos-img{
     width: 350px;
@@ -43,4 +43,5 @@
     border: none;
     margin: 0 10px;
     font-size: var(--font-button);
+    cursor: pointer;
 }

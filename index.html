@@ -1,107 +1,108 @@
 <!doctype html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/pages/index/style-index.css" />
-    <script src="assets/js/carrosel-produtos.js" defer></script>
-    <title>Landing Page Steampunk</title>
-  </head>
-  <body class="body">
-    <header class="header">
-      <nav class="nav">
-        <div class="container">
-          <a href="index.html"
-            ><img src="assets/img/logo.svg" alt="Logo" class="nav-logo"
-          /></a>
-          <ul class="nav-list">
-            <li class="nav-item"><a href="#">NOTÍCIAS</a></li>
-            <li class="nav-item"><a href="#">CRIADOR DE AVATAR</a></li>
-          </ul>
-          <div class="nav-actions">
-            <img src="assets/img/icon-mundo.svg" alt="icon" class="nav-icon" />
-            <button class="button-iniciar-sessao" type="button">
-              INICIAR SESSÃO
-            </button>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <main class="main">
-      <section class="section section-hero">
-        <div class="container">
-          <h1>TECNOLOGIA</h1>
-        </div>
-      </section>
-      <section class="section section-sobre">
-        <div class="container">
-          <div class="section-sobre-content">
-            <h2>SUB-TITULO</h2>
-            <h1>TITULO</h1>
-            <p class="section-sobre-content-texto">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
-              ratione perspiciatis? Iste, nulla unde nam quisquam libero aliquid
-              placeat consectetur et minima illum cum ipsam vero tenetur?
-            </p>
-          </div>
 
-          <div class="section-sobre-image">
-            <img
-              src="assets/img/robo-steampunk2.jpg"
-              alt="robo"
-              class="section-sobre-img"
-            />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assets/css/pages/index/style-index.css" />
+  <script src="assets/js/carrosel-produtos.js" defer></script>
+  <title>Landing Page Steampunk</title>
+</head>
+
+<body class="body">
+  <header class="header">
+    <nav class="nav">
+      <div class="container">
+        <a href="index.html"><img src="assets/img/logo.svg" alt="Logo" class="nav-logo" /></a>
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#">NOTÍCIAS</a></li>
+          <li class="nav-item"><a href="#">CRIADOR DE AVATAR</a></li>
+        </ul>
+        <div class="nav-actions">
+          <img src="assets/img/icon-mundo.svg" alt="icon" class="nav-icon" />
+          <button class="button-iniciar-sessao" type="button">
+            INICIAR SESSÃO
+          </button>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="main">
+    <section class="section section-hero">
+      <div class="container">
+        <h1>TECNOLOGIA</h1>
+      </div>
+    </section>
+    <section class="section section-sobre">
+      <div class="container">
+        <div class="section-sobre-content">
+          <h2>SUB-TITULO</h2>
+          <h1>TITULO</h1>
+          <p class="section-sobre-content-texto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
+            ratione perspiciatis? Iste, nulla unde nam quisquam libero aliquid
+            placeat consectetur et minima illum cum ipsam vero tenetur?
+          </p>
+        </div>
+
+        <div class="section-sobre-image">
+          <img src="assets/img/robo-steampunk2.jpg" alt="robo" class="section-sobre-img" />
+        </div>
+      </div>
+    </section>
+    <section class="section section-produtos">
+      <div class="container">
+        <h2>SUB-TITULO</h2>
+        <div class="section-produtos-janela">
+          <div class="section-produtos-conjunto-imagens">
+            <img src="./assets/img/maquina-steampunk.jpg" alt="img1" class="section-produtos-img" />
+            <img src="./assets/img/cidade-steampunk2.jpg" alt="img2" class="section-produtos-img" />
+            <img src="./assets/img/cidade-steampunk1.jpg" alt="img3" class="section-produtos-img" />
+            <img src="./assets/img/robo-steampunk1.jpg" alt="img4" class="section-produtos-img" />
+            <img src="./assets/img/arte-abstrato.jpg" alt="img5" class="section-produtos-img" />
           </div>
         </div>
-      </section>
-      <section class="section section-produtos">
-        <div class="container">
-          <h2>SUB-TITULO</h2>
-          <div class="section-produtos-janela">
-            <div class="section-produtos-conjunto-imagens">
-              <img
-                src="./assets/img/maquina-steampunk.jpg"
-                alt="img1"
-                class="section-produtos-img"
-              />
-              <img
-                src="./assets/img/cidade-steampunk2.jpg"
-                alt="img2"
-                class="section-produtos-img"
-              />
-              <img
-                src="./assets/img/cidade-steampunk1.jpg"
-                alt="img3"
-                class="section-produtos-img"
-              />
-              <img
-                src="./assets/img/robo-steampunk1.jpg"
-                alt="img4"
-                class="section-produtos-img"
-              />
-              <img
-                src="./assets/img/arte-abstrato.jpg"
-                alt="img5"
-                class="section-produtos-img"
-              />
+        <div class="controles">
+          <div class="linha"></div>
+          <button class="button-left" onclick="left()" disabled>&larr;</button>
+          <button class="button-right" onclick="right()">&rarr;</button>
+        </div>
+
+      </div>
+    </section>
+    <section class="section section-servicos">
+      <div class="container">
+        <div class="section-servicos-content">
+          <div class="section-servicos-card">
+            <div class="section-servicos-card-header">
+              <img src="assets/img/robo-steampunk2.jpg" alt="robo" class="section-servicos-card-header-img">
+              <h2>SUB-TITULO</h2>
+            </div>
+            <div class="section-servicos-card-body">
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, nam quidem tempore doloremque placeat perspiciatis hic voluptate nesciunt possimus consequuntur illum itaque magni cumque error quis id praesentium quae magnam.</p>
             </div>
           </div>
-          <div class="controles">
-            <div class="linha"></div>
-            <button class="button-left" onclick="left()" disabled>&larr;</button>
-            <button class="button-right" onclick="right()">&rarr;</button>
-          </div>
 
+          <div class="section-servicos-info">
+            <h2>SUB-TITULO</h2>
+            <h1>TITULO</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias sint officiis voluptate laboriosam nam ut sapiente suscipit autem nisi odio nemo, accusantium placeat a reiciendis dicta quo eius? Accusamus, sed.</p>
+          </div>
+          <div class="section-servicos-logos">
+
+          </div>
         </div>
-      </section>
-      <section class="section section-servicos">
-        <div class="card"></div>
-      </section>
-      <section class="section section-galeria"></section>
-      <section class="section section-avatares"></section>
-      <section class="section section-saiba-mais"></section>
-      <section class="section section-explorar"></section>
-    </main>
-    <footer class="footer"></footer>
-  </body>
+      </div>
+    </section>
+    <section class="section section-galeria">
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione illum ad itaque molestiae quas ut deleniti est maxime, dolore necessitatibus soluta delectus perferendis quisquam enim provident qui et! Enim, non.</p>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius aspernatur expedita optio odit minima nemo, illum ex aliquam odio quam dignissimos libero ratione. Ratione excepturi libero saepe, dolor nobis id?</p>
+    </section>
+    <section class="section section-avatares"></section>
+    <section class="section section-saiba-mais"></section>
+    <section class="section section-explorar"></section>
+  </main>
+  <footer class="footer"></footer>
+</body>
+
 </html>

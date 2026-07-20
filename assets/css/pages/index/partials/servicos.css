@@ -1,0 +1,30 @@
+.section-servicos-content{
+    display: flex;
+    flex-direction: row;
+}
+.section-servicos-card{
+
+   background-color: red;
+}
+.section-servicos-card-header{
+    background-color: var(--card-header-cor);
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px 20px 0 0;
+    align-items: center;
+    padding: 20px;
+}
+.section-servicos-card-header h2{
+    margin-left: 20px;
+}
+.section-servicos-card-header-img{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.section-servicos-card-body{
+    background-color: var(--card-body-cor);
+    border-radius: 0 0 20px 20px;
+    padding: 20px;
+}
