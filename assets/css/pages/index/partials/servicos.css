@@ -1,12 +1,31 @@
-.section-servicos-content{
+.section-servicos {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url(../../../../img/fundo-cidade-futuro-azul.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 720px;
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
-.section-servicos-card{
 
-   background-color: red;
+.section-servicos-content {
+    display: flex;
+    /* justify-content: space-between;
+    align-items: center;
+    width: 100%; */
+    flex-direction: row;
+    gap: 80px;
 }
-.section-servicos-card-header{
+
+.section-servicos-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 620px;
+    min-height: 420px;
+    background-color: red;
+}
+
+.section-servicos-card-header {
     background-color: var(--card-header-cor);
     display: flex;
     flex-direction: row;
@@ -14,17 +33,43 @@
     align-items: center;
     padding: 20px;
 }
-.section-servicos-card-header h2{
+
+.section-servicos-card-header h2 {
     margin-left: 20px;
 }
-.section-servicos-card-header-img{
+
+.section-servicos-card-header-img {
     width: 120px;
     height: 120px;
     object-fit: cover;
     border-radius: 20px;
 }
-.section-servicos-card-body{
+
+.section-servicos-card-body {
     background-color: var(--card-body-cor);
     border-radius: 0 0 20px 20px;
     padding: 20px;
+    flex: 1;
+}
+
+.section-servicos-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-servicos-logos {
+    display: flex;
+    flex-direction: row;
+    column-gap: 25px;
+    margin-top: 50px;
+}
+
+.section-servicos-logos-img {
+    background-color: var(--card-servicos-logos);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
