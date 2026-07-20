@@ -1,0 +1,24 @@
+.section-galeria{
+    display: flex;
+    flex: row;
+    align-items: center;
+    min-height: 1020px;
+    background-color: var(--fundo-galeria);
+}
+.img-principal{
+    min-width: 1200px;
+    max-height: 490px;
+    background-size: cover;
+    object-fit: cover;
+}
+.section-galeria-conjunto-imagens{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+.section-galeria-img{
+    max-width: 200px;
+    min-height: 150px;
+}
