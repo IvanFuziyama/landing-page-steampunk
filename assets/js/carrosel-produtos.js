@@ -1,6 +1,6 @@
 const imgs = document.querySelector(".section-produtos-conjunto-imagens");
-const botao_esquerdo = document.querySelector(".button-left");
-const botao_direito = document.querySelector(".button-right");
+const botao_esquerdo = document.querySelector(".button-left-produtos");
+const botao_direito = document.querySelector(".button-right-produtos");
 let posicao = 0;
 botao_esquerdo.style.color = "#474747"
 botao_esquerdo.style.cursor = "inherit";
@@ -26,13 +26,13 @@ function atualizar_botao() {
         botao_esquerdo.style.cursor = "pointer";
     }
 }
-function left() {
+function left_produtos() {
     console.log("clicou para a esquerda");
     posicao--;
     atualizar_carrosel();
     atualizar_botao();
 }
-function right() {
+function right_produtos() {
     console.log("clicou para a direita");
     posicao++;
     atualizar_carrosel();
