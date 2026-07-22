@@ -1,11 +1,11 @@
 .section-galeria{
     display: flex;
-    flex: row;
+    flex-direction: row;
     align-items: center;
     min-height: 1020px;
     background-color: var(--fundo-galeria);
 }
-.img-principal{
+.section-galeria-img-principal{
     margin-top: 50px;
     min-width: 1200px;
     max-height: 490px;
@@ -13,23 +13,21 @@
     object-fit: cover;
 }
 .section-galeria-janela{
-    border: 2px solid red;
     overflow: hidden;
     margin: auto;
-    width: 1150px;
+    width: 1125px;
 }
 .section-galeria-conjunto-imagens{
     display: flex;
     flex-direction: row;
-    justify-content: center;
     gap: 30px;
     margin-top: 20px;
     transform: translateX(0);
     transition: 0.7s ease;
 }
 .section-galeria-img{
-    max-width: 200px;
-    max-height: 150px;
+    width: 200px;
+    height: 150px;
     object-fit: cover;
     flex-shrink: 0;
 }
