@@ -5,7 +5,7 @@
     --font-size-titulo: 120px;
     --font-size-sub-titulo: 64px;
     --font-size-texto: 20px;
-    --font-avatares-nome-select: 48px;
+    --font-size-avatar-nome-select: 48px;
     --font-button: 36px;
     --font-color-nav: #F9F9F9;
     --font-color-body: #F5F5F5; 
@@ -46,7 +46,8 @@
         #0B0B0D 0%,
         #1A202E 50%,
         #1A2131 100%
-    )
+    );
+
 
     /* saiba mais */
     --fundo-saiba-mais-gradient: linear-gradient(
@@ -54,7 +55,7 @@
         #1A2131 0%,
         #040615 50%,
         #040710 100%
-    )
+    );
 
     /* explorar */
     --fundo-explorar-gradient: linear-gradient(
@@ -62,7 +63,7 @@
         #040710 0%,
         #04091C 50%,
         #141A34 100%
-    )
+    );
 
     /* footer */
     --fundo-footer: #111111;
@@ -73,5 +74,5 @@
         to bottom,
         #221D74 0%,
         #4E489E 100%
-    )
+    );
 }

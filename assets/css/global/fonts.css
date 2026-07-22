@@ -15,6 +15,12 @@
     font-weight: var(--font-weight-titulo-subtitulo);
     color: var(--font-color-body);
     }
+    h3{
+    font-family: var(--font-family-texto);
+    font-size: var(--font-size-avatar-nome-select);
+    font-weight: normal;
+    color: var(--font-color-body);
+    }
     body p{
         color: var(--font-color-body);
         font-family: var(--font-family-texto);

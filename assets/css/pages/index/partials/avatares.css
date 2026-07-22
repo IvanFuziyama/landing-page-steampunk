@@ -1,0 +1,40 @@
+.section-avatares{
+    background: var(--fundo-avatares-gradient);
+    min-height: 920px;
+}
+.section-avatares-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.section-avatares-card-opcoes{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex: 2;
+}
+.section-avatares-img{
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+}
+.section-avatares-conjunto-imagens{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.section-avatares-opcoes{
+    display: flex;
+    flex-direction: column;
+}
+.section-avatares-selecionado{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex: 1;
+}
+.section-avatares-img-principal{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
