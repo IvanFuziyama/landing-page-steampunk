@@ -11,6 +11,8 @@ a{
     background-color: var(--fundo-navbar);
     /* position: fixed; */
     width: 100%;
+    position: fixed;
+    z-index: 3;
 }
 .nav .container{
     flex-direction: row;

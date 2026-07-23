@@ -27,6 +27,11 @@
     height: 40px;
     border-radius: 10px;
 }
+.footer-logo{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
 .footer-logo-principal{
     display: flex;
     flex-direction: row;
@@ -37,6 +42,7 @@
     height: 50px;
     border-radius: 10px;
     margin-top: 30px;
+    cursor: pointer;
 }
 .footer-texto{
     margin-top: 30px;
