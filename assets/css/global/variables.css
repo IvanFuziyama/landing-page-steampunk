@@ -75,4 +75,10 @@
         #221D74 0%,
         #4E489E 100%
     );
+    --button-fundo-hover: linear-gradient(
+        to bottom,
+        #3e3a8f 0%,
+        #625caa 100%
+    );
+    --button-border-color: #665ED9;
 }

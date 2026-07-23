@@ -1,0 +1,59 @@
+.section-saiba-mais{
+    background: var(--fundo-saiba-mais-gradient);
+}
+.section-saiba-mais .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-height: 620px;
+}
+.section-saiba-mais-content{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+.section-saiba-mais-content p{
+    max-width: 600px;
+    text-align: justify;
+}
+.button-saiba-mais{
+    margin-top: 50px;
+    width: 250px;
+    height: 75px;
+    background: var(--button-fundo-gradient);
+    border-color: var(--button-border-color);
+    font-size: var(--font-button);
+    font-family: var(--font-family-titulo-subtitulo);
+    color: var(--font-color-body);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.button-saiba-mais::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: opacity 0.5s;
+    background: var(--button-fundo-hover);
+    z-index: 1;
+}
+.button-saiba-mais:hover::before{
+    opacity: 1;
+}
+.button-saiba-mais span {
+    position: relative;
+    z-index: 2;
+}
+/* isso é para fazer a transition do hover do button, pois como está utilizando background acaba 
+n funcionando da forma tradicional q é utilizado quando usa-se o background-color */
+
+.section-saiba-mais-image{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+.section-saiba-mais-img{
+    max-width: 550px;
+    min-height: 350px;
+}

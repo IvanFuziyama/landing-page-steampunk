@@ -30,6 +30,7 @@
     height: 150px;
     object-fit: cover;
     flex-shrink: 0;
+    cursor: pointer;
 }
 .controles-galeria{
     display: flex;
