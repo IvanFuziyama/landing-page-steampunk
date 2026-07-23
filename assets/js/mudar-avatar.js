@@ -11,6 +11,6 @@ imgs_avatares.forEach(imagem => {
         });
         this.style.opacity = "1";
         this.style.transform = "scale(1.15)";
-
+        
     })
 })

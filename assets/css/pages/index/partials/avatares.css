@@ -26,6 +26,10 @@
     margin-bottom: 10px;
     cursor: pointer;
 }
+.section-avatares-opcoes:first-child .section-avatares-img{
+    opacity: 1;
+    transform: scale(1.15);
+}
 .section-avatares-conjunto-imagens{
     display: flex;
     flex-direction: row;

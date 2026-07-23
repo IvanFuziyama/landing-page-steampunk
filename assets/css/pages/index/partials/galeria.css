@@ -32,6 +32,10 @@
     flex-shrink: 0;
     cursor: pointer;
 }
+.section-galeria-img:hover{
+    opacity: 0.7;
+    transition: 0.7 ease;
+}
 .controles-galeria{
     display: flex;
     flex-direction: row;
