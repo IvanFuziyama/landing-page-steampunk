@@ -68,8 +68,10 @@
 
     /* footer */
     --fundo-footer: #111111;
-    --icon-fundo-footer: 282828;
-
+    --linha-footer: #282828;
+    --icon-fundo-footer: #282828;
+    --color-footer: #808080;
+    --font-size-footer: 14px;
     /* botao (saiba mais, explorar) */
     --button-fundo-gradient: linear-gradient(
         to bottom,

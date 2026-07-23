@@ -1,209 +1,380 @@
 <!doctype html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/pages/index/style-index.css" />
+    <script src="assets/js/carrosel-produtos.js" defer></script>
+    <script src="assets/js/carrosel-galeria.js" defer></script>
+    <script src="assets/js/mudar-avatar.js" defer></script>
+    <title>Landing Page Steampunk</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="assets/css/pages/index/style-index.css" />
-  <script src="assets/js/carrosel-produtos.js" defer></script>
-  <script src="assets/js/carrosel-galeria.js" defer></script>
-  <script src="assets/js/mudar-avatar.js" defer></script>
-  <title>Landing Page Steampunk</title>
-</head>
-
-<body class="body">
-  <header class="header">
-    <nav class="nav">
-      <div class="container">
-        <a href="index.html"><img src="assets/img/logo.svg" alt="Logo" class="nav-logo" /></a>
-        <ul class="nav-list">
-          <li class="nav-item"><a href="#">NOTÍCIAS</a></li>
-          <li class="nav-item"><a href="#">CRIADOR DE AVATAR</a></li>
-        </ul>
-        <div class="nav-actions">
-          <img src="assets/img/icon-mundo.svg" alt="icon" class="nav-icon" />
-          <button class="button-iniciar-sessao" type="button">
-            INICIAR SESSÃO
-          </button>
-        </div>
-      </div>
-    </nav>
-  </header>
-  <main class="main">
-    <section class="section section-hero">
-      <div class="container">
-        <h1>TECNOLOGIA</h1>
-      </div>
-    </section>
-    <section class="section section-sobre">
-      <div class="container">
-        <div class="section-sobre-content">
-          <h2>SUB-TITULO</h2>
-          <h1>TITULO</h1>
-          <p class="section-sobre-content-texto">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
-            ratione perspiciatis? Iste, nulla unde nam quisquam libero aliquid
-            placeat consectetur et minima illum cum ipsam vero tenetur?
-          </p>
-        </div>
-
-        <div class="section-sobre-media">
-          <img src="assets/img/robo-steampunk2.jpg" alt="robo" class="section-sobre-img" />
-        </div>
-      </div>
-    </section>
-    <section class="section section-produtos">
-      <div class="container">
-        <h2>SUB-TITULO</h2>
-        <div class="section-produtos-janela">
-          <div class="section-produtos-conjunto-imagens">
-            <img src="./assets/img/maquina-steampunk.jpg" alt="img1" class="section-produtos-img" />
-            <img src="./assets/img/cidade-steampunk2.jpg" alt="img2" class="section-produtos-img" />
-            <img src="./assets/img/cidade-steampunk1.jpg" alt="img3" class="section-produtos-img" />
-            <img src="./assets/img/robo-steampunk1.jpg" alt="img4" class="section-produtos-img" />
-            <img src="./assets/img/arte-abstrato.jpg" alt="img5" class="section-produtos-img" />
+  <body class="body">
+    <header class="header">
+      <nav class="nav">
+        <div class="container">
+          <a href="index.html"
+            ><img src="assets/img/logo.svg" alt="Logo" class="nav-logo"
+          /></a>
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#">NOTÍCIAS</a></li>
+            <li class="nav-item"><a href="#">CRIADOR DE AVATAR</a></li>
+          </ul>
+          <div class="nav-actions">
+            <img src="assets/img/icon-mundo.svg" alt="icon" class="nav-icon" />
+            <button class="button-iniciar-sessao" type="button">
+              INICIAR SESSÃO
+            </button>
           </div>
         </div>
-        <div class="controles-produtos">
-          <div class="linha-produtos"></div>
-          <button class="button-left-produtos" onclick="left_produtos()" disabled>&larr;</button>
-          <button class="button-right-produtos" onclick="right_produtos()">&rarr;</button>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="section section-hero">
+        <div class="container">
+          <h1>TECNOLOGIA</h1>
         </div>
-
-      </div>
-    </section>
-    <section class="section section-servicos">
-      <div class="container">
-        <div class="section-servicos-content">
-          <div class="section-servicos-card">
-            <div class="section-servicos-card-header">
-              <img src="assets/img/robo-steampunk2.jpg" alt="robo" class="section-servicos-card-header-img">
-              <h2>SUB-TITULO</h2>
-            </div>
-            <div class="section-servicos-card-body">
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, nam quidem tempore doloremque placeat
-                perspiciatis hic voluptate nesciunt possimus consequuntur illum itaque magni cumque error quis id
-                praesentium quae magnam.</p>
-
-            </div>
-          </div>
-
-          <div class="section-servicos-info">
+      </section>
+      <section class="section section-sobre">
+        <div class="container">
+          <div class="section-sobre-content">
             <h2>SUB-TITULO</h2>
             <h1>TITULO</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias sint officiis voluptate laboriosam nam ut
-              sapiente suscipit autem nisi odio nemo, accusantium placeat a reiciendis dicta quo eius? Accusamus, sed.
+            <p class="section-sobre-content-texto">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
+              ratione perspiciatis? Iste, nulla unde nam quisquam libero aliquid
+              placeat consectetur et minima illum cum ipsam vero tenetur?
             </p>
+          </div>
 
+          <div class="section-sobre-media">
+            <img
+              src="assets/img/robo-steampunk2.jpg"
+              alt="robo"
+              class="section-sobre-img"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="section section-produtos">
+        <div class="container">
+          <h2>SUB-TITULO</h2>
+          <div class="section-produtos-janela">
+            <div class="section-produtos-conjunto-imagens">
+              <img
+                src="./assets/img/maquina-steampunk.jpg"
+                alt="img1"
+                class="section-produtos-img"
+              />
+              <img
+                src="./assets/img/cidade-steampunk2.jpg"
+                alt="img2"
+                class="section-produtos-img"
+              />
+              <img
+                src="./assets/img/cidade-steampunk1.jpg"
+                alt="img3"
+                class="section-produtos-img"
+              />
+              <img
+                src="./assets/img/robo-steampunk1.jpg"
+                alt="img4"
+                class="section-produtos-img"
+              />
+              <img
+                src="./assets/img/arte-abstrato.jpg"
+                alt="img5"
+                class="section-produtos-img"
+              />
+            </div>
+          </div>
+          <div class="controles-produtos">
+            <div class="linha-produtos"></div>
+            <button
+              class="button-left-produtos"
+              onclick="left_produtos()"
+              disabled
+            >
+              &larr;
+            </button>
+            <button class="button-right-produtos" onclick="right_produtos()">
+              &rarr;
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="section section-servicos">
+        <div class="container">
+          <div class="section-servicos-content">
+            <div class="section-servicos-card">
+              <div class="section-servicos-card-header">
+                <img
+                  src="assets/img/robo-steampunk2.jpg"
+                  alt="robo"
+                  class="section-servicos-card-header-img"
+                />
+                <h2>SUB-TITULO</h2>
+              </div>
+              <div class="section-servicos-card-body">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex,
+                  nam quidem tempore doloremque placeat perspiciatis hic
+                  voluptate nesciunt possimus consequuntur illum itaque magni
+                  cumque error quis id praesentium quae magnam.
+                </p>
+              </div>
+            </div>
 
-            <div class="section-servicos-logos">
-              <div class="section-servicos-logos-img">1</div>
-              <div class="section-servicos-logos-img">2</div>
-              <div class="section-servicos-logos-img">3</div>
-              <div class="section-servicos-logos-img">4</div>
-              <div class="section-servicos-logos-img">5</div>
+            <div class="section-servicos-info">
+              <h2>SUB-TITULO</h2>
+              <h1>TITULO</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                sint officiis voluptate laboriosam nam ut sapiente suscipit
+                autem nisi odio nemo, accusantium placeat a reiciendis dicta quo
+                eius? Accusamus, sed.
+              </p>
+
+              <div class="section-servicos-logos">
+                <div class="section-servicos-logos-img">1</div>
+                <div class="section-servicos-logos-img">2</div>
+                <div class="section-servicos-logos-img">3</div>
+                <div class="section-servicos-logos-img">4</div>
+                <div class="section-servicos-logos-img">5</div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="section section-galeria">
-      <div class="container">
-        <h2>SUB-TITULO</h2>
-        <img src="assets/img/circuitos-principal-azul.jpg" alt="img-principal" class="section-galeria-img-principal">
-        <div class="section-galeria-janela">
-          <div class="section-galeria-conjunto-imagens">
-            <img src="assets/img/circuitos-principal-azul.jpg" alt="img1" class="section-galeria-img"
-              onclick="trocarImagem(this)">
-            <img src="assets/img/circuitos-principal-vermelho.jpg" alt="img2" class="section-galeria-img"
-              onclick="trocarImagem(this)">
-            <img src="assets/img/circuitos.jpg" alt="img3" class="section-galeria-img" onclick="trocarImagem(this)">
-            <img src="assets/img/engrenagem8.jpg" alt="img4" class="section-galeria-img" onclick="trocarImagem(this)">
-            <img src="assets/img/engrenagem1.jpg" alt="img5" class="section-galeria-img" onclick="trocarImagem(this)">
-            <img src="assets/img/engrenagem3.jpg" alt="img6" class="section-galeria-img" onclick="trocarImagem(this)">
-            <img src="assets/img/engrenagem9.jpg" alt="img7" class="section-galeria-img" onclick="trocarImagem(this)">
+      </section>
+      <section class="section section-galeria">
+        <div class="container">
+          <h2>SUB-TITULO</h2>
+          <img
+            src="assets/img/circuitos-principal-azul.jpg"
+            alt="img-principal"
+            class="section-galeria-img-principal"
+          />
+          <div class="section-galeria-janela">
+            <div class="section-galeria-conjunto-imagens">
+              <img
+                src="assets/img/circuitos-principal-azul.jpg"
+                alt="img1"
+                class="section-galeria-img"
+                onclick="trocarImagem(this)"
+              />
+              <img
+                src="assets/img/circuitos-principal-vermelho.jpg"
+                alt="img2"
+                class="section-galeria-img"
+                onclick="trocarImagem(this)"
+              />
+              <img
+                src="assets/img/circuitos.jpg"
+                alt="img3"
+                class="section-galeria-img"
+                onclick="trocarImagem(this)"
+              />
+              <img
+                src="assets/img/engrenagem8.jpg"
+                alt="img4"
+                class="section-galeria-img"
+                onclick="trocarImagem(this)"
+              />
+              <img
+                src="assets/img/engrenagem1.jpg"
+                alt="img5"
+                class="section-galeria-img"
+                onclick="trocarImagem(this)"
+              />
+              <img
+                src="assets/img/engrenagem3.jpg"
+                alt="img6"
+                class="section-galeria-img"
+                onclick="trocarImagem(this)"
+              />
+              <img
+                src="assets/img/engrenagem9.jpg"
+                alt="img7"
+                class="section-galeria-img"
+                onclick="trocarImagem(this)"
+              />
+            </div>
+          </div>
+          <div class="controles-galeria">
+            <div class="linha-galeria"></div>
+            <button
+              class="button-left-galeria"
+              onclick="left_galeria()"
+              disabled
+            >
+              &larr;
+            </button>
+            <button class="button-right-galeria" onclick="right_galeria()">
+              &rarr;
+            </button>
           </div>
         </div>
-        <div class="controles-galeria">
-          <div class="linha-galeria"></div>
-          <button class="button-left-galeria" onclick="left_galeria()" disabled>&larr;</button>
-          <button class="button-right-galeria" onclick="right_galeria()">&rarr;</button>
-        </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="section section-avatares">
-      <div class="container">
-        <div class="section-avatares-content">
-          <div class="section-avatares-card-opcoes">
+      <section class="section section-avatares">
+        <div class="container">
+          <div class="section-avatares-content">
+            <div class="section-avatares-card-opcoes">
+              <h2>SUB-TITULO</h2>
+              <h1>TITULO</h1>
+              <div class="section-avatares-conjunto-imagens">
+                <div class="section-avatares-opcoes">
+                  <img
+                    src="assets/img/engrenagem7.jpg"
+                    alt="avatar1"
+                    class="section-avatares-img"
+                    onclick="trocarAvatar(this)"
+                  />
+                  <p>nome</p>
+                </div>
+                <div class="section-avatares-opcoes">
+                  <img
+                    src="assets/img/engrenagem6.jpg"
+                    alt="avatar2"
+                    class="section-avatares-img"
+                    onclick="trocarAvatar(this)"
+                  />
+                  <p>nome</p>
+                </div>
+                <div class="section-avatares-opcoes">
+                  <img
+                    src="assets/img/engrenagem5.jpg"
+                    alt="avatar3"
+                    class="section-avatares-img"
+                    onclick="trocarAvatar(this)"
+                  />
+                  <p>nome</p>
+                </div>
+                <div class="section-avatares-opcoes">
+                  <img
+                    src="assets/img/engrenagem4.jpg"
+                    alt="avatar4"
+                    class="section-avatares-img"
+                    onclick="trocarAvatar(this)"
+                  />
+                  <p>nome</p>
+                </div>
+                <div class="section-avatares-opcoes">
+                  <img
+                    src="assets/img/engrenagem2.jpg"
+                    alt="avatar5"
+                    class="section-avatares-img"
+                    onclick="trocarAvatar(this)"
+                  />
+                  <p>nome</p>
+                </div>
+              </div>
+              <div class="linha-avatares"></div>
+            </div>
+            <div class="section-avatares-selecionado">
+              <img
+                src="assets/img/engrenagem7.jpg"
+                alt="avatar-selecionado"
+                class="section-avatares-img-principal"
+              />
+              <h3>nome</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+                accusantium natus eos quasi perspiciatis culpa possimus et
+                obcaecati accusamus vel deleniti iste ad sed placeat eaque,
+                quaerat ducimus inventore. Modi.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section-saiba-mais">
+        <div class="container">
+          <div class="section-saiba-mais-content">
             <h2>SUB-TITULO</h2>
             <h1>TITULO</h1>
-            <div class="section-avatares-conjunto-imagens">
-              <div class="section-avatares-opcoes">
-                <img src="assets/img/engrenagem7.jpg" alt="avatar1" class="section-avatares-img" onclick="trocarAvatar(this)">
-                <p>nome</p>
-              </div>
-              <div class="section-avatares-opcoes">
-                <img src="assets/img/engrenagem6.jpg" alt="avatar2" class="section-avatares-img" onclick="trocarAvatar(this)">
-                <p>nome</p>
-              </div>
-              <div class="section-avatares-opcoes">
-                <img src="assets/img/engrenagem5.jpg" alt="avatar3" class="section-avatares-img" onclick="trocarAvatar(this)">
-                <p>nome</p>
-              </div>
-              <div class="section-avatares-opcoes">
-                <img src="assets/img/engrenagem4.jpg" alt="avatar4" class="section-avatares-img" onclick="trocarAvatar(this)">
-                <p>nome</p>
-              </div>
-              <div class="section-avatares-opcoes">
-                <img src="assets/img/engrenagem2.jpg" alt="avatar5" class="section-avatares-img" onclick="trocarAvatar(this)">
-                <p>nome</p>
-              </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias
+              ipsa, officia nulla, perferendis, hic cumque corrupti nihil
+              voluptas odio quaerat dicta eligendi unde blanditiis ducimus
+              facilis enim consectetur nemo iure.
+            </p>
+            <button
+              type="button"
+              class="section-saiba-mais-content-button-saiba-mais"
+            >
+              <span>SAIBA MAIS</span>
+            </button>
+          </div>
+          <div class="section-saiba-mais-image">
+            <img
+              src="assets/img/fundo-cidade-futuro-azul.jpg"
+              alt="cidade"
+              class="section-saiba-mais-img"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="section section-explorar">
+        <div class="container">
+          <div class="section-explorar-media">
+            <img
+              src="assets/img/engrenagem-azul-roxo.jpg"
+              alt="engrenagem"
+              class="section-explorar-img"
+            />
+          </div>
+          <div class="section-explorar-content">
+            <h2>SUB-TITULO</h2>
+            <h1>TITULO</h1>
+            <div class="section-explorar-content-buttons">
+              <button
+                type="button"
+                class="section-explorar-buttons-jogar-agora"
+              >
+                <span>JOGAR AGORA</span>
+              </button>
+              <button type="button" class="section-explorar-buttons-saiba-mais">
+                <span>SAIBA MAIS</span>
+              </button>
             </div>
-            <div class="linha-avatares"></div>
-          </div>
-          <div class="section-avatares-selecionado">
-            <img src="assets/img/engrenagem7.jpg" alt="avatar-selecionado" class="section-avatares-img-principal">
-            <h3>nome</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur accusantium natus eos quasi perspiciatis
-              culpa possimus et obcaecati accusamus vel deleniti iste ad sed placeat eaque, quaerat ducimus inventore.
-              Modi.</p>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="section section-saiba-mais">
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="linha-footer"></div>
       <div class="container">
-        <div class="section-saiba-mais-content">
-          <h2>SUB-TITULO</h2>
-          <h1>TITULO</h1>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias ipsa, officia nulla, perferendis, hic
-            cumque corrupti nihil voluptas odio quaerat dicta eligendi unde blanditiis ducimus facilis enim consectetur
-            nemo iure.</p>
-          <button type="button" class="section-saiba-mais-content-button-saiba-mais"><span>SAIBA MAIS</span></button>
+        <div class="footer-conjunto-logos">
+          <div class="footer-fundo-logo">1</div>
+          <div class="footer-fundo-logo">2</div>
+          <div class="footer-fundo-logo">3</div>
+          <div class="footer-fundo-logo">4</div>
+          <div class="footer-fundo-logo">5</div>
+          <div class="footer-fundo-logo">6</div>
+          <div class="footer-fundo-logo">7</div>
         </div>
-        <div class="section-saiba-mais-image">
-          <img src="assets/img/fundo-cidade-futuro-azul.jpg" alt="cidade" class="section-saiba-mais-img">
+        <div class="footer-logo-principal">
+          <img src="assets/img/logo.svg" alt="Logo" class="nav-logo" />
         </div>
+        <div class="footer-texto">
+          <p><strong>© 2026 Ivan Fuziyama</strong></p>
+          <p>
+            Projeto desenvolvido para fins de estudo e prática em
+            desenvolvimento <strong>Front-end</strong>.
+            <strong>Inspirado</strong> no <strong>design</strong> e na
+            <strong> experiência visual </strong> do site oficial de
+            <strong>Arcane</strong>.
+          </p>
+          <p>Site oficial de Arcane: <strong>https://www.arcane.com/pt-br/</strong></p>
+        </div>
+        <ul class="footer-content">
+          <li class="footer-item"><a href="#">Política de Privacidade</a></li>
+          <li class="footer-item"><a href="#">Termos de Uso</a></li>
+          <li class="footer-item"><a href="#">Preferências de Cookies</a></li>
+        </ul>
       </div>
-    </section>
-    <section class="section section-explorar">
-      <div class="container">
-        <div class="section-explorar-media">
-          <img src="assets/img/engrenagem-azul-roxo.jpg" alt="engrenagem" class="section-explorar-img">
-        </div>
-        <div class="section-explorar-content">
-          <h2>SUB-TITULO</h2>
-          <h1>TITULO</h1>
-          <div class="section-explorar-content-buttons">
-            <button type="button" class="section-explorar-buttons-jogar-agora"><span>JOGAR AGORA</span></button>
-            <button type="button" class="section-explorar-buttons-saiba-mais"><span>SAIBA MAIS</span></button>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-  <footer class="footer"></footer>
-</body>
-
+    </footer>
+  </body>
 </html>
