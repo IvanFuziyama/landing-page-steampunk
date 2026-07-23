@@ -16,7 +16,7 @@
     max-width: 600px;
     text-align: justify;
 }
-.button-saiba-mais{
+.section-saiba-mais-content-button-saiba-mais{
     margin-top: 50px;
     width: 250px;
     height: 75px;
@@ -29,7 +29,7 @@
     position: relative;
     overflow: hidden;
 }
-.button-saiba-mais::before{
+.section-saiba-mais-content-button-saiba-mais::before{
     content: "";
     position: absolute;
     inset: 0;
@@ -38,10 +38,10 @@
     background: var(--button-fundo-hover);
     z-index: 1;
 }
-.button-saiba-mais:hover::before{
+.section-saiba-mais-content-button-saiba-mais:hover::before{
     opacity: 1;
 }
-.button-saiba-mais span {
+.section-saiba-mais-content-button-saiba-mais span {
     position: relative;
     z-index: 2;
 }

@@ -64,6 +64,7 @@
         #04091C 50%,
         #141A34 100%
     );
+    --border-img-explorar: #6D2489;
 
     /* footer */
     --fundo-footer: #111111;
@@ -77,8 +78,8 @@
     );
     --button-fundo-hover: linear-gradient(
         to bottom,
-        #3e3a8f 0%,
-        #625caa 100%
+        #47439b 0%,
+        #6f68b6 100%
     );
     --button-border-color: #665ED9;
 }

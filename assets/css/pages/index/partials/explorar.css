@@ -1,0 +1,58 @@
+.section-explorar{
+    background: var(--fundo-explorar-gradient);
+}
+.section-explorar .container{
+    display: flex;
+    flex-direction: row;
+    min-height: 820px;
+    align-items: center;
+}
+.section-explorar-media{
+    flex: 1;
+}
+.section-explorar-img{
+    border-radius: 50%;
+    border: 2px solid var(--border-img-explorar);
+    padding: 20px;
+    width: 550px;
+    height: 550px;
+}
+.section-explorar-content{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+}
+.section-explorar-buttons-jogar-agora,
+.section-explorar-buttons-saiba-mais{
+    background: var(--button-fundo-gradient);
+    border-color: var(--button-border-color);
+    font-size: var(--font-button);
+    font-family: var(--font-family-titulo-subtitulo);
+    color: var(--font-color-body);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    width: 275px;
+    height: 75px;
+    margin: 0 10px;
+}
+.section-explorar-buttons-jogar-agora::before,
+.section-explorar-buttons-saiba-mais::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: opacity 0.5s;
+    background: var(--button-fundo-hover);
+    z-index: 1;
+}
+.section-explorar-buttons-jogar-agora:hover::before,
+.section-explorar-buttons-saiba-mais:hover::before{
+    opacity: 1;
+}
+.section-explorar-buttons-jogar-agora span,
+.section-explorar-buttons-saiba-mais span{
+    position: relative;
+    z-index: 2;
+}
