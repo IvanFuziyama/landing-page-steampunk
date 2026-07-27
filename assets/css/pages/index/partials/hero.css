@@ -15,3 +15,8 @@
     justify-content: center;
     min-height: 760px;
 }
+@media screen and (max-width: 1024px) {
+    .section-hero h1{
+        font-size: calc(var(--font-size-titulo)/1.2);
+    }
+}

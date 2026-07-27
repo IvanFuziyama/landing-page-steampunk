@@ -50,8 +50,8 @@ a{
 }
 
 /*
-celulares
-tablets 
+celulares max-width: 600px
+tablets max-width: 1024px 
 */
 @media screen and (max-width: 800px) {
     .nav{

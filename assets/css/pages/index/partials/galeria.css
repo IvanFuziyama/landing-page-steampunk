@@ -56,3 +56,9 @@
     cursor: pointer;
     font-size: var(--font-button);
 }
+
+/* @media screen and (max-width:1250px) {
+    .section-galeria-img-principal{
+        min-width: 1100px;
+    }
+} */
