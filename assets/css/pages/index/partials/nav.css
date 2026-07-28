@@ -53,8 +53,22 @@ a{
 celulares max-width: 600px
 tablets max-width: 1024px 
 */
-@media screen and (max-width: 800px) {
+@media (max-width: 1024px) {
+    .container{
+        padding: 0 40px;
+    }
     .nav{
         background-color: red;
+    }
+    .nav-list{
+        gap: 20px;
+    }
+    .nav-logo{
+        margin-right: 20px;
+    }
+}
+@media (max-width: 600px) {
+    .nav{
+        background-color: aquamarine;
     }
 }
