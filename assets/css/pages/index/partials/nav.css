@@ -1,11 +1,12 @@
 ul li{
     list-style: none;
 }
-a{
+ul li a{
     text-decoration: none;
     font-family: var(--font-family-texto);
     font-weight: var(--font-weight-padrao-navbar);
     color: var(--cor-fonte-navbar );
+    font-size: var(--font-size-navbar);
 }
 .nav{
     background-color: var(--fundo-navbar);
@@ -41,6 +42,7 @@ a{
 .button-iniciar-sessao{
     font-family: var(--font-family-texto);
     font-weight: var(--font-weight-padrao-navbar);
+    font-size: var(--font-size-navbar);
     color: var(--cor-fonte-navbar);
     background-color: var(--cor-button-iniciar-sessao-navbar);
     padding: 10px;
@@ -53,6 +55,14 @@ a{
 celulares max-width: 600px
 tablets max-width: 1024px 
 */
+.nav-list-mobile,
+.nav-menu-mobile,
+.linha1, .linha2, .linha3,
+.nav-logo-mobile,
+.nav-item-mobile,
+.button-iniciar-sessao-mobile{
+    display: none;
+}
 @media (max-width: 1024px) {
     .container{
         padding: 0 40px;
@@ -60,15 +70,47 @@ tablets max-width: 1024px
     .nav{
         background-color: red;
     }
-    .nav-list{
-        gap: 20px;
+    .nav-item, .button-iniciar-sessao{
+        display: none;
     }
-    .nav-logo{
-        margin-right: 20px;
+    .nav-menu-mobile{
+        cursor: pointer;
+        display: block;
+    }
+    .linha1, .linha2, .linha3{
+        display: block;
+        width: 32px;
+        height: 2px;
+        background-color: #fff;
+        margin: 8px;
+    }
+    .nav-list-mobile{
+        display: none;
+    }
+    .nav-list-mobile.active{
+        display: flex;
+        right: 0;
+        top: 0;
+        position: fixed;
+        width: 50%;
+        height: 100vh;
+        background-color: aquamarine;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nav-item-mobile{
+        display: block;
+    }
+    .nav-logo-mobile{
+        display: block;
+    }
+    .button-iniciar-sessao-mobile{
+        display: block;
     }
 }
 @media (max-width: 600px) {
     .nav{
-        background-color: aquamarine;
+        background-color: rgb(45, 117, 93);
     }
+    
 }
