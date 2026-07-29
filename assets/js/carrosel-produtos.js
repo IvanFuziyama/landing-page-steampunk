@@ -1,4 +1,3 @@
-// usei ia para fazer esse código. Tinha até conseguido fazer um mais simples, porém quando eu redimensionava a tela a última imagem da direita ficava cortada ou nem aparecia
 const imgs_produtos = document.querySelector(".section-produtos-conjunto-imagens");
 const janela_produtos = document.querySelector(".section-produtos-janela");
 const imagens_produtos = document.querySelectorAll(".section-produtos-img");
@@ -11,7 +10,7 @@ botao_esquerdo_produtos.style.color = "#474747";
 botao_esquerdo_produtos.style.cursor = "inherit";
 botao_esquerdo_produtos.disabled = true;
 
-function larguraPasso() {
+function larguraPassoProdutos() {
     const gap = parseFloat(
         getComputedStyle(imgs_produtos).columnGap
     );
@@ -19,15 +18,15 @@ function larguraPasso() {
     return imagens_produtos[0].offsetWidth + gap;
 }
 
-function imagensVisiveis() {
+function imagensVisiveisProdutos() {
     return Math.floor(
-        janela_produtos.offsetWidth / larguraPasso()
+        janela_produtos.offsetWidth / larguraPassoProdutos()
     );
 }
 
-function ultimaPosicao(){
+function ultimaPosicaoProdutos(){
 
-    const passo = larguraPasso();
+    const passo = larguraPassoProdutos();
 
     const maximo =
         imgs_produtos.scrollWidth - janela_produtos.offsetWidth;
@@ -38,7 +37,7 @@ function ultimaPosicao(){
 
 function atualizar_carrosel_produtos() {
 
-    const passo = larguraPasso();
+    const passo = larguraPassoProdutos();
 
     let deslocamento = posicao_produtos * passo;
 
@@ -68,7 +67,7 @@ function atualizar_botao_produtos() {
 
     }
 
-    if (posicao_produtos >= ultimaPosicao()) {
+    if (posicao_produtos >= ultimaPosicaoProdutos()) {
 
         botao_direito_produtos.style.color = "#474747";
         botao_direito_produtos.disabled = true;
@@ -97,7 +96,7 @@ function left_produtos() {
 
 function right_produtos() {
 
-    if (posicao_produtos < ultimaPosicao()) {
+    if (posicao_produtos < ultimaPosicaoProdutos()) {
         posicao_produtos++;
     }
 
@@ -108,8 +107,8 @@ function right_produtos() {
 
 window.addEventListener("resize", () => {
 
-    if (posicao_produtos > ultimaPosicao()) {
-        posicao_produtos = ultimaPosicao();
+    if (posicao_produtos > ultimaPosicaoProdutos()) {
+        posicao_produtos = ultimaPosicaoProdutos();
     }
 
     atualizar_carrosel_produtos();
