@@ -9,6 +9,7 @@
 }
 .section-produtos-janela{
     overflow: hidden;
+    margin: 0 auto;
 }
 .section-produtos-conjunto-imagens{
     display: flex;
@@ -44,4 +45,18 @@
     margin: 0 10px;
     font-size: var(--font-button);
     cursor: pointer;
+}
+@media (max-width: 1250px){
+    .section-produtos-janela{
+        max-width: 773px; /* 350 + 73 + 350 */
+    }
+    .section-produtos .container h2{
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 870px){
+    .section-produtos-janela{
+        max-width: 350px;
+    }
 }
