@@ -25,3 +25,16 @@
     max-width: 90%;
     opacity: 70%;
 }
+@media (max-width: 1024px){
+    .section-sobre .container{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .section-sobre-content{
+        align-items: center;
+    }
+    .section-sobre-img{
+        margin: 20px auto 0;
+    }
+}
