@@ -67,3 +67,16 @@
     height: 40px;
     cursor: pointer;
 }
+@media (max-width: 1024px){
+    .section-servicos{
+        background-position: center;
+    }
+    .section-servicos-content{
+       flex-direction: column;
+       align-items: center;
+       margin: 40px 0;
+    }
+    .section-servicos-info{
+        align-items: center;
+    }
+}
