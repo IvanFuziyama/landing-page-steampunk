@@ -68,6 +68,9 @@
     height: 40px;
     cursor: pointer;
 }
+.section-servicos-logo-img:hover{
+    transform: scale(1.4);
+}
 @media (max-width: 1024px){
     .section-servicos{
         background-position: center;

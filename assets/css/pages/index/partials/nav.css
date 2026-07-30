@@ -21,12 +21,22 @@ ul li a {
   height: 80px;
   align-items: center;
 }
+.nav-logo:hover{
+  transform: scale(1.1);
+}
 .nav-list {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   flex: 1;
   align-items: center;
+}
+.nav-item{
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.3s ease-in-out; 
+}
+.nav-item:hover{
+  border-color: var(--cor-fonte-navbar);
 }
 .nav-actions {
   display: flex;
@@ -49,6 +59,9 @@ ul li a {
   border-radius: 5px;
   border: none;
   cursor: pointer;
+}
+.button-iniciar-sessao:hover{
+  background-color: var(--cor-button-iniciar-sessao-navbar-hover);
 }
 
 /*
@@ -92,6 +105,10 @@ tablets max-width: 1024px
     border-radius: 15px;
     align-items: center;
     justify-content: center;
+    transition: 0.3s ease-in-out; 
+  }
+  .nav-menu-mobile:hover{
+    background-color: var(--cor-button-iniciar-sessao-navbar-hover);
   }
   .linha1,
   .linha2,
@@ -141,6 +158,11 @@ tablets max-width: 1024px
     align-items: center;
     justify-content: center;
     background-color: var(--fundo-buttons-navbar-mobile);
+    transition: 0.3s ease-in-out; 
+    cursor: pointer;
+  }
+  .nav-fechar-mobile:hover{
+    background-color: var(--fundo-buttons-navbar-mobile-hover);
   }
   .nav-fechar-mobile p {
     cursor: pointer;
@@ -149,6 +171,11 @@ tablets max-width: 1024px
   .nav-item-mobile {
     display: block;
     margin: 10px 0;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.3s ease-in-out; 
+  }
+  .nav-item-mobile:hover{
+    border-color: var(--cor-fonte-navbar);
   }
   .nav-logo-mobile {
     display: block;
@@ -166,6 +193,10 @@ tablets max-width: 1024px
     border-radius: 5px;
     border: none;
     cursor: pointer;
+    transition: 0.3s ease-in-out; 
+  }
+  .button-iniciar-sessao-mobile:hover{
+    background-color: var(--fundo-buttons-navbar-mobile-hover);
   }
 }
 @media (max-width: 600px) {

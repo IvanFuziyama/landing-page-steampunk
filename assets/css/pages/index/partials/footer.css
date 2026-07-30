@@ -32,6 +32,9 @@
     height: 30px;
     cursor: pointer;
 }
+.footer-logo:hover{
+    transform: scale(1.2);
+}
 .footer-logo-principal{
     display: flex;
     flex-direction: row;
@@ -64,4 +67,9 @@
     color: var(--font-color-body);
     font-family: var(--font-family-texto);
     font-size: var(--font-size-footer);
+    border-bottom: 1px solid transparent;
+    transition: 0.3s ease-in-out; 
+}
+.footer-item:hover{
+    border-color: var(--color-footer);
 }
