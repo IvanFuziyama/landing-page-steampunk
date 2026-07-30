@@ -50,13 +50,13 @@ body p {
 }
 @media (max-width: 600px){
     h1{
-        font-size: calc(var(--font-size-titulo)/1.8);
+        font-size: calc(var(--font-size-titulo)/1.9);
     }
     h2{
-        font-size: calc(var(--font-size-sub-titulo)/1.6);
+        font-size: calc(var(--font-size-sub-titulo)/1.7);
     }
     h3{
-        font-size: calc(var(--font-size-avatar-nome-select)/1.3);
+        font-size: calc(var(--font-size-avatar-nome-select)/1.4);
     }
     body p{
         font-size: calc(var(--font-size-texto)/1.2);
