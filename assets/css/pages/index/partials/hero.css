@@ -7,6 +7,7 @@
     background-position: center;
     background-size: cover;
     padding-top: 80px;
+    background-attachment: fixed;
 }
 .section-hero .container{
     display: flex;
