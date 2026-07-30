@@ -52,8 +52,34 @@ n funcionando da forma tradicional q é utilizado quando usa-se o background-col
     display: flex;
     flex-direction: row;
     flex: 1;
+    margin-left: 50px;
 }
 .section-saiba-mais-img{
-    max-width: 550px;
-    min-height: 350px;
+    width: 550px;
+    height: 350px;
+}
+
+@media (max-width: 1100px ){
+    .section-saiba-mais .container{
+        flex-direction: column;
+    }
+    .section-saiba-mais-content{
+        margin: 150px 0 50px;
+        align-items: center;
+    }
+    .section-saiba-mais-image{
+        margin-left: 0;
+    }
+}
+@media (max-width: 650px){
+    .section-saiba-mais-img{
+        width: 450px;
+        height: 300px;
+    }
+}
+@media (max-width: 550px){
+    .section-saiba-mais-img{
+        width: 400px;
+        height: 250px;
+    }
 }

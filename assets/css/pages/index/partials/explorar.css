@@ -23,6 +23,10 @@
     flex: 1;
     align-items: center;
 }
+.section-explorar-content-buttons{
+    display: flex;
+    flex-direction: row;
+}
 .section-explorar-buttons-jogar-agora,
 .section-explorar-buttons-saiba-mais{
     background: var(--button-fundo-gradient);
@@ -55,4 +59,36 @@
 .section-explorar-buttons-saiba-mais span{
     position: relative;
     z-index: 2;
+}
+@media (max-width: 1250px){
+    .section-explorar-content-buttons{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+}
+@media (max-width: 1060px){
+    .section-explorar-img{
+        width: 450px;
+        height: 450px;
+    }
+}
+@media (max-width: 950px){
+    .section-explorar .container{
+        flex-direction: column-reverse;
+    }
+    .section-explorar-media{
+        margin-bottom: 150px;
+    }
+    .section-explorar-content{
+        margin-top: 200px;
+    }
+    .section-explorar-content-buttons{
+        margin-bottom: 50px;
+    }
+}
+@media (max-width: 550px){
+    .section-explorar-img{
+        width: 400px;
+        height: 400px;
+    }
 }
