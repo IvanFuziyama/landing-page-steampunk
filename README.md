@@ -12,9 +12,9 @@ O projeto foi desenvolvido com foco em **estudo e prática de desenvolvimento Fr
 
 ## 🚀 Tecnologias utilizadas
 
-- **HTML** — estrutura e semântica da página
-- **CSS** — estilização, layout, responsividade e animações
-- **JavaScript** — interações e funcionalidades da página
+- **HTML** 
+- **CSS** 
+- **JavaScript** 
 
 ## 🎯 Objetivos do projeto
 
